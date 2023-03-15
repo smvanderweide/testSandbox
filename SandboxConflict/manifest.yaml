@@ -1,6 +1,6 @@
-name: Sandbox
+name: Empty
 version: 1.0.0
-summary: Empty sandbox environment
-description: Deploys an empty sandbox environment
-runner: ARM
-templatePath: azuredeploy.json
+description: Deploys an empty environment
+engine:
+  type: ARM
+  templatePath: azuredeploy.json
