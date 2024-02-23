@@ -8,7 +8,6 @@ command: "./Choco.ps1 -Package {{package}} -Version {{version}} -IgnoreChecksums
 parameters:
   package:
     default: ""
-    type: string
     required: true
     description: |
       The name of the Chocolatey package to install.
